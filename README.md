@@ -5,7 +5,7 @@ Front end mentor challenge : [Link](https://www.frontendmentor.io/challenges/ord
 
 ## Screenshots
 
-![App Screenshot](https://user-images.githubusercontent.com/60406970/137460189-8629472b-bc9d-4394-8783-6deafac759e9.png)
+<img src="https://user-images.githubusercontent.com/60406970/137460189-8629472b-bc9d-4394-8783-6deafac759e9.png" width="300" height="auto">
 
 
   
