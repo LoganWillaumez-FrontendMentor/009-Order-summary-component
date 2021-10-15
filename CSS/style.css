@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  display: grid;
+  place-items: center;
+  background: no-repeat url("../images/pattern-background-mobile.svg") #e0e7ff;
+  background-size: 100%;
+  width: 100%;
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 15px;
+  color: #717fa6;
+  font-weight: 500;
+}
+/* font */
+h1 {
+  font-size: 22px;
+  font-weight: 900;
+  line-height: 29.11px;
+  margin-bottom: 16px;
+}
+h1,
+h2 {
+  color: #1f2e55;
+}
+h2 {
+  font-size: 14px;
+}
+.main-body {
+  line-height: 25px;
+  max-width: 263px;
+}
+/* Layout */
+.card {
+  width: 327px;
+  height: 567px;
+  overflow: hidden;
+  border-radius: 15px;
+  background-color: #ffffff;
+  text-align: center;
+}
+
+.icon-hero {
+  height: 160px;
+}
+main {
+  padding: 32px 24px;
+}
+article > * {
+  margin-bottom: 24px;
+}
+.mini-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px;
+  background-color: #f7f9ff;
+  border-radius: 11px;
+}
+.left-sect {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.section-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.proceed {
+  background: #382ae1;
+  border: none;
+  box-shadow: 0px 20px 20px rgba(56, 42, 225, 0.190291);
+  border-radius: 11px;
+  padding: 15px 65px;
+  color: #ffffff;
+  font-weight: 900;
+  line-height: 20px;
+}
+.cancel {
+  font-weight: 900;
+  line-height: 20px;
+}
+@media only screen and (min-width: 600px) {
+  h1 {
+    font-size: 28px;
+    margin-bottom: 17px;
+  }
+  .card {
+    width: 450px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 450px;
+    height: 697px;
+  }
+  .icon-hero {
+    height: 220px;
+  }
+  body {
+    font-size: 16px;
+    line-height: 26px;
+    background: no-repeat url("../images/pattern-background-desktop.svg")
+      #e0e7ff;
+  }
+  .main-body {
+    max-width: 354px;
+    margin-bottom: 20px;
+  }
+  .mini-card {
+    margin-bottom: 32px;
+  }
+  .proceed {
+    margin-bottom: 32px;
+  }
+  .proceed,
+  .cancel,
+  .change {
+    cursor: pointer;
+  }
+  .proceed:hover {
+    background-color: #766cf1;
+  }
+  .cancel:hover {
+    color: #1f2e55;
+  }
+  .change:hover {
+    text-decoration: none;
+  }
+}
