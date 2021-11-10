@@ -11,6 +11,6 @@ Front end mentor challenge : [Link](https://www.frontendmentor.io/challenges/ord
   
 ## Demo
 
-https://loganwillaumez.github.io/Order-summary-component/
+https://loganwillaumez-frontendmentor.github.io/009-Order-summary-component/
 
   
